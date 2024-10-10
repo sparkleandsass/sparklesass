@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sparkle & Sass - Cosmétiques de Luxe</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffe6f2; /* Rosa claro para fondo */
+        }
+        header {
+            background-color: #ff66b2; /* Rosa fuerte para el encabezado */
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Efecto de sombra brillante */
+        }
+        h1 {
+            margin: 0;
+            font-size: 3em;
+            font-family: 'Brush Script MT', cursive; /* Fuente elegante */
+        }
+        nav {
+            background-color: #ff99cc; /* Menú de navegación rosa */
+            overflow: hidden;
+        }
+        nav a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #ff66b2;
+        }
+        .banner {
+            background-image: url('https://via.placeholder.com/1500x500'); /* Puedes cambiar esta imagen por otra */
+            background-size: cover;
+            color: white;
+            text-align: center;
+            padding: 100px 0;
+            text-shadow: 2px 2px 4px #000000; /* Sombra de texto para el brillo */
+        }
+        .products {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 40px;
+        }
+        .product {
+            background-color: white;
+            border: 2px solid #ff99cc; /* Bordes rosas */
+            padding: 20px;
+            text-align: center;
+            width: 30%;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+            margin: 20px;
+            transition: transform 0.2s;
+        }
+        .product:hover {
+            transform: scale(1.05); /* Efecto de agrandamiento al pasar el ratón */
+        }
+        .product img {
+            width: 100%;
+            height: auto;
+        }
+        footer {
+            background-color: #ff66b2;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Sparkle & Sass</h1>
+        <p>Votre portail exclusif vers les cosmétiques de luxe</p>
+    </header>
+
+    <nav>
+        <a href="#">Accueil</a>
+        <a href="#">À propos</a>
+        <a href="#">Produits</a>
+        <a href="https://www.instagram.com/sparkle__sass/profilecard/?igsh=MXAydXAzMzFwdXE5NA==">Instagram</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <div class="banner">
+        <h2>Découvrez l'éclat de la beauté</h2>
+        <p>Explorez nos produits de luxe</p>
+    </div>
+
+    <!-- Aquí puedes añadir más productos como se describió anteriormente -->
+    <div class="products">
+        <!-- Producto 1 -->
+        <div class="product">
+            <img src="ruta_a_la_imagen_del_producto" alt="Descripción del Producto">
+            <h3>Nombre del Producto</h3>
+            <p>Descripción del Producto</p>
+            <p>Precio</p>
+        </div>
+        <!-- Más productos -->
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Sparkle & Sass. Tous droits réservés.</p>
+    </footer>
+
+</body>
+</html>
